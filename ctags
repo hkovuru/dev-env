@@ -1,0 +1,3 @@
+--recursive=yes
+--exclude=.git
+--languages=C,C++,Go,Python,Sh

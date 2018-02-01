@@ -52,7 +52,9 @@ set background=dark
 "set encoding=euc_cn
 
 let g:easytags_async = 1
-set tags=./tags;
+set tags=./tags;/
 let g:easytags_dynamic_files = 1
+let g:easytags_events = ['BufWritePost']
 let g:easytags_by_filetype = expand("~/tags")
 
+let g:go_def_mode = 'godef'

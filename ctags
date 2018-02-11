@@ -1,3 +1,4 @@
 --recursive=yes
 --exclude=.git
+--exclude=build
 --languages=C,C++,Go,Python,Sh
